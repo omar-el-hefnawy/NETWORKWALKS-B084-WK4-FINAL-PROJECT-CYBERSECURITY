@@ -196,17 +196,17 @@ The most important technical lesson from this project was procedural rather than
 
 | Screenshot | What it shows |
 |---|---|
-| [`reconnaissaince tools.png`](screenshots/reconnaissaince%20tools.png) | whois/nslookup/dnsrecon/whatweb/curl/wafw00f output |
-| [`nmap scanning.png`](screenshots/nmap%20scanning.png) | Port scan showing FTP (21) open |
-| [`robots.txt.png`](screenshots/robots.txt.png) | `robots.txt` content disclosing `/patient`, `/staff`, `/old` |
-| [`sql dump.png`](screenshots/sql%20dump.png) | The exposed `mediroza_db_backup_2019.sql` file under `/old` |
-| [`gobuster more directories.png`](screenshots/gobuster%20more%20directories.png) | gobuster results against `/patient/` |
-| [`burp suite analyzing login.php.png`](screenshots/burp%20suite%20analyzing%20login.php.png) | Burp request/response showing the `admin'--` auth bypass |
-| [`burp suite map.png`](screenshots/burp%20suite%20map.png) | Burp site map of the application |
-| [`patient directory.png`](screenshots/patient%20directory.png) | Admin session listing all three patients' reports |
-| [`patient report 1.png`](screenshots/patient%20report%201.png) / [`2`](screenshots/patient%20report%202.png) / [`3`](screenshots/patient%20report%203.png) | The three recovered pathology reports |
-| [`nw tools pdf 1 password.png`](screenshots/nw%20tools%20pdf%201%20password.png) | PDF hash extraction / first crack |
-| [`succesful hashcat.png`](screenshots/succesful%20hashcat.png) | Successful hashcat run on `patient_report_3.pdf` after the signed/unsigned int32 fix |
+| ![`reconnaissaince tools.png`](screenshots/reconnaissaince%20tools.png) | whois/nslookup/dnsrecon/whatweb/curl/wafw00f output |
+| ![`nmap scanning.png`](screenshots/nmap%20scanning.png) | Port scan showing FTP (21) open |
+| ![`robots.txt.png`](screenshots/robots.txt.png) | `robots.txt` content disclosing `/patient`, `/staff`, `/old` |
+| ![`sql dump.png`](screenshots/sql%20dump.png) | The exposed `mediroza_db_backup_2019.sql` file under `/old` |
+| ![`gobuster more directories.png`](screenshots/gobuster%20more%20directories.png) | gobuster results against `/patient/` |
+| ![`burp suite analyzing login.php.png`](screenshots/burp%20suite%20analyzing%20login.php.png) | Burp request/response showing the `admin'--` auth bypass |
+| ![`burp suite map.png`](screenshots/burp%20suite%20map.png) | Burp site map of the application |
+| ![`patient directory.png`](screenshots/patient%20directory.png) | Admin session listing all three patients' reports |
+| ![`patient report 1.png`](screenshots/patient%20report%201.png) / ![`2`](screenshots/patient%20report%202.png) / ![`3`](screenshots/patient%20report%203.png) | The three recovered pathology reports |
+| ![`nw tools pdf 1 password.png`](screenshots/nw%20tools%20pdf%201%20password.png) | PDF hash extraction / first crack |
+| ![`succesful hashcat.png`](screenshots/succesful%20hashcat.png) | Successful hashcat run on `patient_report_3.pdf` after the signed/unsigned int32 fix |
 
 Raw evidence: [`evidence/mediroza_db_backup_2019.sql`](evidence/mediroza_db_backup_2019.sql) — the exposed backup file in full.
 
